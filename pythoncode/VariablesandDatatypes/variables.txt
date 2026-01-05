@@ -1,0 +1,22 @@
+python variable are categorized into 2 types one is local variable and second is global variables
+
+a = 1 # global variable  or comman variable 
+input_value = 1   # integer
+floating_value = 1.566  # float
+str_value = "this is string 2134234 &"   # string 
+
+if(a == 1):
+    b = 2
+    print(b)   - it will display the value 
+
+print(b)  it will tell value error or b variable not initialized 
+func
+
+class
+
+
+1 importing the modules 
+2 variables 
+3 loop/function/class/condition
+4 executing the function or loop
+

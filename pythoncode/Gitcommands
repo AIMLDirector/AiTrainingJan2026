@@ -1,0 +1,10 @@
+git clone -b dev <path>
+git branch -- local branch
+git branch -r -- remote branch
+
+git add <filename>  or git add .  or git add -A  ( add all changes including deletions and added files)
+git status  -- check status of files
+git commit -m "message"  -- commit changes with message
+git status
+git push
+git pull  - to fetch the code from the remote branch
