@@ -1,0 +1,130 @@
+langchain -- third party product 
+ 
+ Agent -  workflow + in memory configuration ( satisfication )
+1 Chain -- integrating multiple step into one 
+2 storing the past result -- tools ( workflow)
+ step1 -> Output ( success/failure)  -> step2 -> step3 -> step4 ? step1 
+
+ Tool - step1 -> Output ( success/failure) + step1log  -> step2 Output ( success/failure) + stepoutput(step1 & 2) -> step3 
+
+ step5( step1, step2, step3, step4)
+ step6( 1 - 5)
+
+prompt design ( role, content, metadata) message/messenger - (input format , output format, input it can accept)
+role --  identify the message type ( system , user) ( input role )   input  prompt 
+content ( text, images, document, audio ) ( process information )  data ( feeding) / internet / model 
+metadata -  responce of the information  ) ( output ) output format/parser
+
+chain -- prompt(role) |model(content) -- data( vector)/internet/model( trained) |outparser ( pydantic, response, prompt )
+
+chain - prompt|data|tools|outparser
+data - company document & internet( web document)| model document  -- output 
+tool (data) - in memory ()
+1. llm will fail -- step 
+2 llm will fail -- step - internet
+3 llm will fial -- step - model 
+
+ (compine all the data into one) -- screen 
+RAG - retrieval augemented generation 
+ condition ( search -- internal document -- display or internet - display in the screen / model )
+
+RAG -- tools ( )
+company data - simple RAG
+company data/internet Data -- Hybrid RAG 
+tools ( company, internet, website) - cache memory 
+company -- 100 document -- ( 200 GB and 100 CPU )  - DB 
+
+ 100 document - 1 document -- vector DB -- search the data ? 
+ 100( pdf, word, text, video, image)  -- 1 format - 1 document  -- ouput ( text, audio  )
+how to work on llm  -- vectorDB( 1 document ) --  internet --
+
+ Vector DB 
+
+ chain
+ vector DB
+ tools ( integrating and consolidating the data )
+ RAG 
+data - vector db -- tools to fetch the data   - RAG framework 
+
+Agent ( integerate multiple activity ) -- self-service - understanding the requirement, website, payment, printoutput 
+book a ticket -- 
+1 - flight availablity -- app ?
+2  - destination -- place ? 
+3 -- booking( payment gateway ) -- ( bank account -- > agent /vendor ) ?
+4 -  printout of the ticket  --  ? 
+
+Agent ( destination , file, download the output ) -
+
+prompt : 
+1. Take all the input i have provided book the ticket where cost should not go beyond 10000
+2 dont use this website  ( american airline )
+3 dont share my credit card information and dont store that in any website 
+
+
+ Ai Agent -- self-service 
+
+ automation( rule based) vs agent ( rule based and self decision making )
+
+ Ai agent -- code generation , testing, operation ( 60 %) 
+ 
+ Code generation - github copilot , cursor, replit, vO, bolt 
+ Decisio -- right /wrong 
+
+1000 -->  400  -->  2035 
+
+ Senior manager/ director -- Ai agent ( assitment of work, evaluation , feedback, report )
+
+HR -- performance, review, suggestion 
+
+posthog = 6 employee( 15 lakhs - 25 lakhs) - 40+ part time employee ( freelance )( 50 lakhs)
+
+
+RAG Design:
+Data : Data Engineering team -  pandas , ETL tool( consolidate the data in a uniformat)
+1 Type of data  -  web data, pdf data, text, database ( document db)
+2 Read and understand the data( unwanted data, noise data has to be remove  )
+3 Train the Data (image, video, text  )
+4 Store the data ( vector format ) -- Vector db - 
+
+load the Data from different Data sources
+
+Generate the user Query -- system role ( data engineer ) ( user prompt )
+1. identify the user prompt context
+2  checking the availability of the information from the loaded data sources
+3 Formatting and displaying the data in the output screen 
+
+
+1 knowledge articlet -- DB -- search
+2 Web search -- travily
+3 AI Agent - websearch   - single agent 
+4 hybrid search -- upload the real time application log --> read all line (rule to identify the error ) 
+we need to feed the error code to search tool to provide the suggestion 
+
+full project work : 
+5 hybrid search ( knowledge base + web search ) -- ask question or upload any error log ---  
+    1. knowledge  base search ( suggestion )
+    2  web search ( suggestion )
+    3 it should consolidate the output and display in the screen 
+
+
+1 model 
+2 tools 
+@tool( cach memory - log of all the tools execution )
+3 agent ( model, tools, system_prompt)
+4 execution of the agent : agent.invoke( user query: upload the file ) 
+@tool
+tools1 ( check whether the file is realy present or not )
+@tool
+tools2 ( read the file and validate the log any critical error is their) 
+@tool
+tools3 ( critical alert - suggestion )
+
+output screen ( outparser )   
+
+system prompt :  You are a research assistant provide the output in the research format and the  output in json format and limit the number of line to 10  
+
+ summary/ json/ word/ 
+
+
+ filter out the data from summary output  -- pydantic
+

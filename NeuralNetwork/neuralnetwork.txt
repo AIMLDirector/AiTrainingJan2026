@@ -1,0 +1,212 @@
+Encoding -- General Transformation of raw data( text, label, categories) into numbers  -- Format conversation 
+
+Key:
+1 with Rule based
+2 preserve the structure , but not meaning 
+3 no semantic understanding
+ 
+ how to train the data effectively and fast 
+ word by word 
+ bank(root) --  river bank , banking sector 
+ 
+ one hot encoding ( binary number)  Machine learning ( classification )
+ 1.  i am learning python ( 4 *4 ) -- Decoding ( python, learning i am )
+  [ 1 0 0 0 
+    0 1 0 0
+    0 0 1 0 
+    0 0 0 1]
+2 . 10 * 10 Array 
+
+Disadvantages :
+1 we need to convert all the data in the uniform array format
+2 high memory usage to match the data format 
+
+
+label encoding  - ordinal encoding 
+
+ I am learning python [ 1 , 2, 3, 4 ]
+ i am working on python coding for the past 10 years and python is a effective coding language 
+  1 2 3 4 5   15
+
+
+ordinall encoding - categories the data 
+
+1 Rating sytem ( low, high medium )
+2 risk categories( high risk, low risk )
+3 education level
+4 classification( true false )
+5 spam/ not spam 
+
+
+binary encoding --  no high memory usage , reduce dimension of mentioning the data 
+
+i - 1 - 001
+am - 2 - 010
+
+label encoding with headers -- networking 
+i am learning python --     101 10 200  320 410 102 
+a - 1
+b - 2 
+c - 3
+d - 4
+
+an - 27 
+at - 28 
+be - 40 
+ing - 2
+and - 200 
+learn - 300  - learning 300.2 , learned 300.1 , learn - 300 
+ 
+ pattern creation - 15 years 
+
+
+ they are not able to reproduce the sentence as it is with the context and meaning 
+
+Vectorization --  50 size -- ( root word, meaning , context it will used for )
+
+bank -- river bank, bank account, banking sector, bankers bank  banking location 
+ 
+ 300.  201.100   bank -- river , account 
+
+ 300.2.  400.500 -- banking - sector , location 
+
+  i am working on the <mask> sector  - bank|edge|cluster|border ?  
+
+  scoring mechanism --   .3, .4, .5,  .8 ( most matching word in that place )  similar word ( high score)
+
+  banking -->  20 sentence 
+
+
+  Transformer ( google )
+
+  cloud -- troubleshooting 
+
+  IIT - NLP -- Neural network -- model - Architecture - understanding different model - deployment
+   open source model/license model - RAG - Agentic AI - Security - monitoring 
+
+Vectorization  - []  10 * 10 Array --   word, meaning, context    -- word embeding 
+bank == edge ( similarlity )  == 0.8  ( .6 to 0.8 )   > 0.8 
+300.2.1 == 301.2.1  
+ 
+word2vec 
+fasttext
+genism
+
+ sentence embedding ( ) -- Transformer
+   I am learning  -- [101 10 23 200 102 ]
+ 1 BERT 
+ 2 ROBERT
+
+ Fruit -- apple, orange, pineapple, 
+
+ how to learn python ?   ( how, to , ?) - 3 to 10 second 
+
+ learn python  
+
+ learn -- studying , reading , writing (vectorization )
+
+ python -- python book, article, writeup, notes, comments, links, website ( context)  - embedding tech
+
+ learn python( learning python, python learning , ) ( suitable transformatiion )
+learning python, python learning  --   
+book - top most 3 match
+article - 
+writup -- 
+notes
+comments
+links
+website 
+
+summarize and ranking ( top 3  )
+
+Generate the output in a default format
+
+output in the screen - 
+
+Training the data with context and meaing -- Neural network framework -- model 
+
+python --> ( coding, syntax, if, for, while, function, class ) 
+
+ 200.11.22.31.32.34  size = 300  300 * 300 array 
+ 201.11.22.31.32.34 
+
+Training - openai, deepseek, meta, google ( 85 % - 15 % ) 
+
+model ( trained data ) -- internet ( book, article, link, notes, social media information) -  static data 
+
+GPT 2 -- 2020 ( 100 years )  ( 2021 -  2025 ) 
+GPT3.5 -- 2021
+GPT 4 - 2023 ( model )
+GPT 5- 2024 ( perplexity web search)
+GTP 5.2 - 2025 Dec 
+
+january - 2026 --  
+
+who is the prime minister of india  - ? model, web search, website (RAG Architecture )  - custom search 
+RAG 
+1 model 
+2 web search
+3 website 
+
+how to learn python ? ( 5 to 10 ) -- google will give ( 10 answers , 10 links ) ( no decision , general information , topic information  )
+
+assume and make a decision on it own ( 15 % )
+
+1. TOPIC, context( learning, reading, writing ), information ( code, doc, text, book)
+ 
+i am new to coding i am planning to learn python step by step provide me the good article to read and practice 
+
+
+i am having error on  
+Error - topic -- 
+
+you are an SME of Data engineering . i want you to trouble the topic error( 1 question )
+
+Data engineering - SME -- TOPIC - ERROR 
+
+Neural network
+1 input layer
+2 output layer
+3 hidden layer
+
+Types
+1 ANN  Aritifical neural network ( FNN( Feedforwording neural network ), RNN( Recursive neural network)) - Text 
+
+FNN: 
+ I am Learning python ( 4 input layer )
+ output = input data  * weightage + Bias
+      output   = ([] * .2 + .8) + ( am * .4 + .7) + ( learning * .8 + 0.3) + ( python * .8  + 0.4)
+
+       learning python 
+  RNN ( Training the data with memory ) - GEN AI 
+
+  I am learning python  
+  python - I , am learning
+  learning - I, am , python
+  I  - am , learning , python 
+  am - i, learning , python  
+ neural network ( stock predict, weather prediction, house price predict, gold rate prediction )
+  python
+  learning
+  learning python 
+
+  price * weigth( buy or not ) + bias( natural, war)
+
+  (I * .2 + .8) + ( am * .4 + .7) + ( learning * .8 + 0.3) + ( python * .8  + 0.4)  + 
+2 CNN  - images/video( pixel ) - object detection , image detection, face recognition
+
+Neural network framework 
+scikit learn  ( training  split the data and ) - machine learning framework 
+
+1 tensorflow -- google( 35 % )( c + java + python ) ( easy to write ) -- more memory  - stable 
+2 pytorch -- facebook ( 55 % )( python )
+
+10 % - 
+
+
+
+
+
+
+
+

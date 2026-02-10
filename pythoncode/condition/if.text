@@ -1,0 +1,40 @@
+if, while , for   - condition and loop
+
+if condition:
+     activity
+
+
+if condition:
+    activity
+else:
+    activity
+
+if condition1:
+    activity
+elif condition2:
+    activity
+else:
+    activity 
+
+
+if condition1:
+    activity
+elif condition2:
+    activity
+elif condition3:
+    activity
+else:
+    activity 
+
+
+coding structure 
+1 module 
+2 import the password, api,key information 
+3 variables
+4 condition, loop, function , class
+5 main code to execute by call the class or function or condition validation ( 1,2,3,4)
+
+
+if condition + while 
+if condition + for loop
+if condition with in function 
