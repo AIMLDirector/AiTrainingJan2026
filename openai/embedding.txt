@@ -1,0 +1,42 @@
+ word - token - > token id - > vector -> vector embedding - stored in the db 
+import torch
+embedding = torch.nn.Embedding(num_embeddings=1000, embedding_dim=512)
+token_id = torch.tensor([123])
+vector = embedding(token_id)
+
+ i am learning python 
+ [i, am,learning, python ]
+ [101,72,313,7524,22752,102] 
+
+ 72 - [0.2 03 
+       0.4 0.999]     100 * 100 array    
+
+213 - []
+
+7524 - []
+
+22752  - []
+
+vector embedding - index , data ---  ( 200 : [vectors(i, am , learning, pythong )]  ( data, context , relationship )
+                                        201(skillset): [learning ]
+                                        203(language): [python])
+
+vector DB - ( infromation in the db with index and value ) - 3D format 
+203( language ) :  python, java, javascript, c , .net 
+
+consine similarity  to search for the matching words or sentence ( attention mechanism )
+
+ i am learning python  -> i -> ( am , learning, python )
+
+
+vector embedding data will be stored in vector DB 
+ Vector DB: chromab, pinecoe, mongodb, faiss, qdrant, psressql 
+
+
+how to learn python (learn, python ) - ? index ( 201 ) -- learning ->  reading book, website link,
+                                         index ( 203)  --  pythong ->  python book, python website, python article 
+                                        summary of data 
+                                        ranking 
+                                         top3 -  top1 - display in the screen 
+
+                                         

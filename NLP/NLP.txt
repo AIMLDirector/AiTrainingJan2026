@@ -1,0 +1,104 @@
+AI Team:
+1. architect/testing --45 % role has eliminater
+2. Developer 
+3 Data Engineer
+4. Testing  - 70 % 
+5. Security
+6 . Business Analy
+7.  Principle Engineer
+
+AI : 
+product Engineer - 0 - 12 ( Data Engineer - BA, DB, Data / Infrastructure Engineer - infra,testing, devops, deploy / Developer - development/security/testing )
+lead product Engineer - 12 - 25+ 
+principle product engineer  20 -  35+
+
+90 % humand - 5 to 10 % AI ( Chatbot, self-service automation , automation , voice assistance ) -- 
+10%  - 30 % 
+
+5 to 8 years -- 60 % AI   / 40 % work will be done by human ( support, maintain, develop)
+
+1. repeated work -- AI ( onboarding ,troubleshooting , platform upgrade )
+
+Data Engineer - AI function  - snowflake, databricks, cloud , sap, saleforce , oracle,  -- AI product ( upgrade, fix, self-service)
+
+integration - github, microsoft, jenkins 
+
+monitoring -- 
+
+AI -- platform or user side of the world 
+
+AI - Text(80%)    image/video/voice( insurance,manufacturing, medical  - call center, voice assistant)
+
+NLP  -- > Neural Network( deep learning ) -- Transformer(GEN AI ) -- Text 
+
+ Language understanding -- speaking/writing  -  pyschologiclly  1980 -- 
+ linguistic analytics ( tone,format, syntax, grammer )  - 
+ german language corpus(grouping the word specific to one langauge ) /english corpus(us, uk, Asia ) - Data - 1995+ 
+
+NLP : Natural Language processing ( technology )
+NLU - natural language understanding - interpreting the meaning of the text / understanding the meaining of the word and syntax
+NLG - Natual Language Generation  - Generate the response for the question / respondig the human requirement 
+
+1 -- 30 -- 60 ( training the model ) - colour, language, introduction --- assumption ( 90 % )  -- 60  ( -70 - +70 ) - 
+human understanding -- like/dislike, characteristic, word, body language , pschology ? -  30 % - 100 %  - we need to live with it 
+
+prompt engineering  - Rules, role, input, output, in memory 
+
+Topic: 
+1. which part of the country
+2 which language you speaking
+3. veg/ non veg ( religion, caste) -- close --  profession -- 10 feet away 
+
+US:
+1. hoppy ( weekend )
+2  place -- culture 
+3  sport 
+
+NLP:
+1 Text classification
+2 Sentiment analysis
+3 Text summarization
+4 NER ( Named entity recognition) -- bill - person, product, money, date, bill no - medical, insurance 
+5 machine translation
+6 text generation ( GEN AI )
+
+ voice assistant , chatbot, content analysis and recommendation , text analysis, speech to text or text to speech 
+
+ 1 rule based chatbot ( hi -- Hi/hello/hi kumar) -- bank 
+ 2 context based chatbot - 
+ 3 intelligent/ in memory( learning)  chatbot  -- GENAI 
+
+ NLP : ( Data engineering -- unified format )
+ Text preprocessing  - vendor 
+ 1. Tokenization  -- LLM  stands  for  Large  Language  Model.( 500 PB)
+ 2. Stopword removal -- LLM  stands   Large  Language  Model.( for, and, or is it , what who when a in )
+ 3. punctuation removal - removing the special symbol ( :,:"@#$%^&*) -- LLM  stands   Large  Language  Model
+ 4. Stemming - LLM  sta   Larg  Lang  Model( identify the root word of that word  - it will try to identify the root word from which it is derived from ) - 40 % 
+ 5. Lemmatization - LLM  stand  Large  Language  Model ( studying, studied  - study )  90 % 
+ 6. NER
+ 7. POS tagging -- LLM/Subj stand/Verb  Large  Language  Model(Noun)
+ 8. Text Normalization  -- i am learning python for the pest 6 months -- (learning python 6 months )
+ 9. spell check  -- 
+ 10 Train the data  -- word2Vec genism 
+ 11 model --  LLM - large language model 
+100000 doc(json, text, word, yaml, table ) -- one format(plain.text) /one file -- training the data - format change/ data relationship -- output success - 60 - 70 % 
+ large language model -- google, facebook -- publish - open source( 5- 6 ) - CLI  -- , license ( 10 ) cli & GUI - 100client  50 
+
+
+ open source model( general data ) -- feature -- good my use case  - custom data(platform, application , coding, infrastructure ) -- custom model 
+
+ NLP -- Transform -- google, facebook, deepseek, claude, openai( 40 % - 60 % )
+
+
+
+
+
+
+
+
+
+
+
+
+
+

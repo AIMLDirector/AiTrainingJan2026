@@ -1,0 +1,60 @@
+1.Document - unified format -- embedding - store in Vector Db 
+2 Document - list - Embedding - Vectordb  -- 
+
+10 Documents( 3 pdf, 2 word, 3 text, 2 raw ) -- consolidate the data( single document ) - chunk (sentence - 100 word - 200 word )
+ list - embedding - vectordb   
+  embedding model to convert the data into vector
+ 
+ RAG - Retieval /Augumentation / Generation 
+ RAG - Framework
+
+ input( question , summary , query ) - embedding tech to convert to vector 
+ 
+ Retrieval --
+ 1 similary method ( cosine similarity , qualibirum distance ) - context, meanin, relevant information 
+ 2 Augumentation - consolidating the output which it has fetched
+ 3 prompt engineering - ( finetune the output(summary, points, example, author, link ) , format( text, csv, json ), which data you wanted  , how much information you want( word count) )
+   1. user prompt - question 
+   2  system prompt --  how system should generate the answer 
+4  Generating the output 
+
+1 Vector DB
+2 Embedding model ( encoding and decoding )
+3 llm model ( RAG  ) --  input question - > model-> prompt ->  & output format - > , output 
+
+
+Chatbot: Self-service 
+1. onboarding employee/ Team members 
+2. offboarding
+3. troubleshooting ( technical & non technical )
+4. knowledge based article (bank account, general query , transaction related)
+
+RAG 
+1 langchain - chain - 80 % 
+2 llamaindex  - 10 % 
+3 haystack  5 - 6 % 
+
+
+input question - > model-> (tools - web, ticketing tools, platform, apps, SAAS ) ?  prompt ->  & output format - > , output  - AI agents 
+
+
+  input question --- ( query(vector db , google search ) or action( tools ( 3+ ))  sequentially /parallely )  - Hybrid RAG/ AI agents / Agentic AI 
+
+
+NLP -> neural network -> transformer - > RAG - > Agentic AI 
+
+1  Vector format & Retrieval format 
+
+ tool1  -> tool2 ->    tool3 -- Ai agent ( workflow - rule , context)
+
+ tool1   tool2    tool3 ( in memory ) - Agentic AI 
+
+ tools1 ( output -- in memory ) ? which tools i need to call ? 
+
+
+tool1 - (tool2 or tool3  or tool4) -- tool3 ( output ) in memory ( tool1 + tool3 ) ? ( tool 4/5/6 or output  )
+
+ intelligent ( model ) - Agentic AI 
+
+ share market( 1lakhs - NIFTy 50 shares ) -- to buy( 50,000 ) or sell ( )
+

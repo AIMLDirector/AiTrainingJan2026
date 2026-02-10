@@ -1,0 +1,12 @@
+AIX os  -- IBM  - IBM hardware
+
+IBM hardware -- virtualization on Hardware and OS 
+ OS virtualization --  Entire OS which will be sitting on Base ( )
+ container --  micro OS which having the minimum thing to run and support(IBM , lXC - open source, Docker)
+ oralce - Services and process --   java - JVM ( process and sepecific integrated services), JRE 
+ python -- virutal enviroment 
+ javascript 
+
+
+ 
+ python package manager --  pip 
